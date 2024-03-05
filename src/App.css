@@ -1,0 +1,41 @@
+.app {
+  background-color: #212121;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: rgb(73, 72, 72);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  font-family: 'Roboto';
+}
+
+.heading {
+  color: #fff;
+}
+
+.input {
+  height: 35px;
+  width: 500px;
+  border-radius: 5px;
+  color: orangered;
+  font-size: 20px;
+}
+
+.button {
+  background-color: blue;
+  color: #fff;
+  height: 42px;
+  width: 90px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+}
